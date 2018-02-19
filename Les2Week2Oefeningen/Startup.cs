@@ -22,7 +22,7 @@ namespace Les2Week2Oefeningen
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                app.UseDeveloperExceptionPage(); //ss
             }
             app.UseDefaultFiles();
             app.UseStaticFiles();
